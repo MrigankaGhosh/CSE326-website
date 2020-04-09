@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="styling" href="another-login/another-login/src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.7/awesome-bootstrap-checkbox.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <!-- Navigation Start -->
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"> </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <img
+            src="../Assets/1528959513_logodesign.png"
+            alt="Logo"
+            style="width: 40px;height: 30px;"
+          />
+          <li class="nav-item active">
+            <a class="nav-link" href="file:///C:/Users/Mriganka%20Ghosh/Desktop/Academics/CSE326/Project/index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          
+        
+      </div>
+    </nav>
+
+    <!-- Navigation End -->
+
+    <!-- Login form start -->
+
+    <div class="container">	
+		<div class="login-container-wrapper clearfix">
+			<ul class="switcher clearfix">
+				<li class="first logo active" data-tab="login">					
+						<a>Login</a>			
+				</li>
+				<li class="second logo" data-tab="sign_up">
+						<a>Sign Up</a>	
+				</li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active" id="login">
+					<form class="form-horizontal login-form">
+						<div class="form-group relative">
+							<input class="form-control input-lg" id="login_username" placeholder="E-mail Address" required="" type="email"> <i class="fa fa-user"></i>
+						</div>
+						<div class="form-group relative">
+							<input class="form-control input-lg" id="login_password" placeholder="Password" required="" type="password"> <i class="fa fa-lock"></i>
+						</div>
+						<div class="form-group">
+							<button class="btn btn-success btn-lg btn-block" type="submit">Login</button>
+						</div>
+						<div class="checkbox checkbox-success">
+							<input id="stay-sign" type="checkbox">
+              <label for="stay-sign">Stay signed in</label>
+						</div>
+            <hr />
+						<div class="text-center">
+							<label><a href="#">Forgot your password?</a></label>
+						</div>
+					</form>
+				</div>
+				<div class="tab-pane" id="sign_up">
+					<form class="form-horizontal login-form">
+						<div class="form-group relative">
+							<input class="form-control input-lg" id="login_username" placeholder="E-mail Address" required="" type="email"> <i class="fa fa-user"></i>
+						</div>
+						<div class="form-group relative">
+							<input class="form-control input-lg" id="login_password" placeholder="Password" required="" type="password"> <i class="fa fa-lock"></i>
+						</div>
+						<div class="form-group relative">
+							<input class="form-control input-lg" id="login_password" placeholder="Repeat Password" required="" type="password"> <i class="fa fa-lock"></i>
+						</div>
+						<div class="form-group">
+							<button class="btn btn-success btn-lg btn-block" type="submit">Sign Up</button>
+						</div>
+						<div class="checkbox checkbox-success">
+							<input id="agree-terms" type="checkbox">
+              <label for="agree-terms"> Agree our terms</label>
+						</div>
+						<hr>
+						<div class="text-center">
+							<label><a href="#">Already Member?</a></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- Login form end -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

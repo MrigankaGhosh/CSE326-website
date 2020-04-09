@@ -1,0 +1,1 @@
+This is a CSE326 project. The purpose of the project is to make a website for Online Courses.
